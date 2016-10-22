@@ -34,7 +34,7 @@ defmodule FacebookMessenger.Phoenix.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     d =
-    [{:phoenix, "~> 1.1"},
+    [{:phoenix, "~> 1.2"},
      {:facebook_messenger, git: "https://github.com/atinder90/facebook_messenger.git"},
      {:inch_ex, only: :docs},
      {:ex_doc, "~> 0.7", only: :dev},
